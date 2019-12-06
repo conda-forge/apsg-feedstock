@@ -39,7 +39,7 @@ about:
   description: |
     APSG defines several new python classes to easily manage, analyze
     and visualize orientational structural geology data.
-  doc_url: https://apsg.readthedocs.io/
+  doc_url: https://apsg.readthedocs.io
   dev_url: https://github.com/ondrolexa/apsg
 
 extra:
