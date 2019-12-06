@@ -1,5 +1,5 @@
 {% set name = "apsg" %}
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0537677543cc55bb45cac947d18f96e5c28ef82ae9d16f14915e37859082a1f6
+  sha256: c49e5bbd09ce86a939fd6d5643fdc7bac48142c4d352e3f1be7c02521ed4a2bf
 
 build:
   number: 0
