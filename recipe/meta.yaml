@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vv"
+  script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
     - iapsg=apsg.shell:main
 
@@ -24,7 +24,7 @@ requirements:
     - python
     - numpy
     - scipy
-    - matplotlib
+    - matplotlib >=3.0
 
 test:
   imports:
@@ -39,7 +39,7 @@ about:
   description: |
     APSG defines several new python classes to easily manage, analyze
     and visualize orientational structural geology data.
-  doc_url: https://apsg.readthedocs.io/
+  doc_url: https://apsg.readthedocs.io
   dev_url: https://github.com/ondrolexa/apsg
 
 extra:
