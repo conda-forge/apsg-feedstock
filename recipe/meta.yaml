@@ -10,7 +10,7 @@ source:
   sha256: c49e5bbd09ce86a939fd6d5643fdc7bac48142c4d352e3f1be7c02521ed4a2bf
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
@@ -24,7 +24,7 @@ requirements:
     - python
     - numpy
     - scipy
-    - matplotlib >=3.0
+    - matplotlib-base >=3.0
 
 test:
   imports:
