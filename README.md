@@ -5,9 +5,13 @@ Home: https://github.com/ondrolexa/apsg
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apsg-feedstock/blob/master/LICENSE.txt)
 
 Summary: APSG - python package for structural geologists
+
+Development: https://github.com/ondrolexa/apsg
+
+Documentation: https://apsg.readthedocs.io
 
 APSG defines several new python classes to easily manage, analyze
 and visualize orientational structural geology data.
