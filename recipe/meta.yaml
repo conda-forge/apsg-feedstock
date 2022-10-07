@@ -1,5 +1,5 @@
 {% set name = "apsg" %}
-{% set version = "0.7.3" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0b7bc175ef96716be36f405d8f0eb751f538b7698e9841fab6cff852ca13bed3
+  sha256: b15d9a7c8b4bf0d139eaf7fe7baf18e5388c27a4ffc7ba44071169c6534d009e
 
 build:
   number: 0
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
     - numpy
     - scipy
     - matplotlib-base >=3.0
