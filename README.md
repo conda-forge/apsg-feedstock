@@ -1,11 +1,11 @@
-About apsg
-==========
+About apsg-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apsg-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ondrolexa/apsg
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apsg-feedstock/blob/main/LICENSE.txt)
 
 Summary: APSG - python package for structural geologists
 
@@ -152,7 +152,4 @@ Feedstock Maintainers
 =====================
 
 * [@ondrolexa](https://github.com/ondrolexa/)
-
-
-<!-- dummy commit to enable rerendering -->
 
