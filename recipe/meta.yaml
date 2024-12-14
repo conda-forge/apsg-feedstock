@@ -44,6 +44,7 @@ about:
   home: https://github.com/ondrolexa/apsg
   license: MIT
   license_family: MIT
+  license_file: LICENSE.txt
   summary: APSG - python package for structural geologists
   description: |
     APSG defines several new python classes to easily manage, analyze
