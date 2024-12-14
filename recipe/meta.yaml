@@ -24,6 +24,8 @@ requirements:
     - poetry
   host:
     - python {{ python_min }}
+    - pip
+    - poetry
   run:
     - python >={{ python_min }}
     - numpy
