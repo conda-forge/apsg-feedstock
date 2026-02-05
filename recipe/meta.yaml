@@ -1,5 +1,5 @@
 {% set name = "apsg" %}
-{% set version = "1.3.7" %}
+{% set version = "1.3.9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b6e84095e96b83e904e84bd4c9fb234fdc10ab34146d77cc58d985f1c8c2ab21
+  sha256: 53668c450b4960a9b7183a78ff9c967229ea2449b742ee0ea0b2235ca4061fd2
 
 build:
   number: 0
