@@ -1,5 +1,5 @@
 {% set name = "apsg" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e30bfc4bd7183172508348a7e80e6a63e2c2ebf6b621735a0b2025ebdf9c0cc6
+  sha256: c30064f8b7bbc0e8aee734035df2188a16d2e5367a81dcb8e60a63d11234d624
 
 build:
   number: 0
